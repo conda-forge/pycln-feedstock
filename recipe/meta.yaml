@@ -1,5 +1,5 @@
 {% set name = "pycln" %}
-{% set version = "2.2.1" %}
+{% set version = "2.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pycln-{{ version }}.tar.gz
-  sha256: 560ed5dec5e44d3250ed1cd6b080080c4022c24dfd2840902113b42d31775bd0
+  sha256: a8a1bd0ac0f5d2fb5fcfb409e027667c2a5ac5341bb7fa23d4a7bd1c1cfc3fec
 
 build:
   noarch: python
