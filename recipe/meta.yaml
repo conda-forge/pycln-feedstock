@@ -18,7 +18,7 @@ build:
 
 requirements:
   host:
-    - python >=3.6.2,<4
+    - python >=3.7.0,<4
     - pip
     - poetry
   run:
@@ -28,7 +28,6 @@ requirements:
     - pyyaml >=5.3.1
     - tomlkit >=0.11.1
     - typer >=0.4.1
-    - dataclasses >=0.7,<0.8
 
 test:
   imports:
