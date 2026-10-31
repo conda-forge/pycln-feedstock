@@ -1,13 +1,13 @@
 {% set name = "pycln" %}
-{% set version = "2.6.0" %}
+{% set version = "2.6.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pycln-{{ version }}.tar.gz
-  sha256: 758cfd07f0d9711f69989bd4cef7e451e3d7166073b0c0f77d4a712dbac8b3fe
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pycln-{{ version }}.tar.gz
+  sha256: 23e2ce1cba4df31e692c63cf23ee8e126072c55ce027e1c78dd09240aba069ea
 
 build:
   noarch: python
