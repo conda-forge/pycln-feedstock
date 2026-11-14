@@ -13,14 +13,14 @@ build:
   noarch: python
   entry_points:
     - pycln = pycln.cli:app
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
 requirements:
   host:
     - python {{ python_min }}
     - pip
-    - poetry
+    - poetry-core
   run:
     - python >={{ python_min }},<4
     - libcst >=0.3.10
